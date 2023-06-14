@@ -16,13 +16,14 @@
 * puts(a + b)
 
 4. As IRB is an Interactive Ruby Shell, we can use the full power of Ruby here to write more complex scripts. Let's start playing with that:
-* Create the following method:
-  ```ruby
+- Create the following method:
+```ruby
 irb(main)> def hello(name)
 irb(main)>   puts("Hello #{name}!")
 irb(main)> end
 => :hello
 ```
+
 - Use the method (e.g `hello("David")`).
 5. Write a method `add`, it takes 2 arguments (`a` and `b`), and it returns the addition of the two arguments.
 
